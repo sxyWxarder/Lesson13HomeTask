@@ -33,7 +33,7 @@ AnimeType(name="SAO")
 
 Наступним кроком створи модельку `Anime`, з наступними полями:
 * `name` - скопіюй його з модельки `AnimeType`, але зміни макс. довжину на `255`;
-* `description` - `TextField`, також це полем може бути пистим;
+* `description` - `TextField`, також це поле може бути пистим;
 * `type` - `ForeignKey`, Де ми посилаэмося на `AnimeType` все як на уроці;
 * `episodes` - `PositiveIntegerField`, може бути пустим;
 * `my_episode` - `PositiveIntegerField`, Не можу бути пустим, тут ми будемо зберігати на якому епізоді ми закінчили;
