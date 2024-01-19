@@ -40,7 +40,6 @@ source venv/bin/activate
 # Важливо текст з скріна повинен співпадати з вашим бо його будуть шукати тести!!!
 # Не забудь зереєструвати для ціє view `urls.py` як і для наступної і також зареєструвати посилання апки `app_anime_list` в `config/urls.py`
 
-# =====index view====
 
 
 # ====AnimeListView====
@@ -49,13 +48,11 @@ source venv/bin/activate
 * В папці `app_anime_list` створіть файл `anime_list.html` в якому вам потрібно повторити результат на скріні;
 ![Alt text](anime_list_page.png)
 
-# ====AnimeListView====
 
 # ====Кнопки навігації====
 
 І не забудьте додати кнопки(ссилки) якими ви будете пригати між сторінками index.html & anime_list.html
 
-# ====Кнопки навігації====
 
 Також команди, які вам необхідні:
 1) `python manage.py runserver` - Для запуску сервера
