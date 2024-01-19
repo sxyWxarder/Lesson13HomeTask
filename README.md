@@ -46,6 +46,7 @@ source venv/bin/activate
 
 Далі робимо view `AnimeListView` яка буде показувати нам наш список аніме.
 * В папці `app_anime_list` створіть файл `anime_list.html` в якому вам потрібно повторити результат на скріні;
+* Якщо опису нимає виводимо `-==-` це також будть первіряти тести;
 ![Alt text](anime_list_page.png)
 
 
